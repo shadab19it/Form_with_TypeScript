@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.logo ,h3,p{
+    display:block;
+    text-align: center;
+    margin-bottom: 5px;
+}
+.logo{
+    padding:10px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+h3{
+   font-weight: 600;
+   font-size: 16px;
+   color: rgba(51, 49, 49, 0.932); 
+}
+p{
+    color:grey;
+    font-size: 15px;
+}
+.form-container{
+    padding:10px 50px 20px;
+}
+
+.form-content{
+    margin-top: 20px;
+    display:block;
+}
+.form-content .inputfield{
+    overflow: hidden;
+    align-items: center;
+    display:flex;
+    border-bottom: 1px solid rgb(214, 209, 209);
+    border-left: 1px solid rgb(214, 209, 209);
+    border-right: 1px solid rgb(214, 209, 209);
+    background:inherit;
+}
+.form-content .inputfield:first-child{
+    border-top: 1px solid rgb(214, 209, 209);
+}
+.inputfield input{
+    width: 100%;
+    background:inherit;
+    padding:15px 15px 15px 10px;
+    font-size: 14px;
+    letter-spacing: 1px;
+    border:none;
+    outline:none;
+    border-left: 1px solid rgb(214, 209, 209);
+}
+
+select{
+    display:block;
+    width: 350px;
+    cursor: pointer;
+    outline:none;
+    padding:15px 15px 15px 8px;
+    border:none;
+    margin-left: -1px;
+    border-left: 1px solid rgb(214, 209, 209);
+    background:inherit;
+}
+/* option:first{
+    color: #999999;
+} */
+
+
+.btnfield{
+    margin-top: 15px;
+    display:block;
+}
+.Rbutton{
+    width: 200px;
+    height: 40px;
+    outline:none;
+    border: none;
+    cursor: pointer;
+    background:#5f72f2;
+    border-radius: 5px;
+    color:rgb(240, 234, 234);
+    letter-spacing:.5px;
+    box-shadow: 0 2px 0 rgba(0,0,0,.045);
+}
+.Rbutton:hover{
+    background:#8c9fff;
+}
+.icon{
+    width:20px;
+    height: 100%;
+    padding-left:3px;
+    margin:0 10px ;
+}
+
+/*======= Footer-Styles ===============*/
+.footer{
+    width: 100%;
+    display: block;
+    text-align: center;
+    padding:20px 50px;
+    background:#636364ea;
+    border-top: 1px solid rgb(214, 209, 209);
+  }
+  
+.footer .fText{
+    color: rgb(216, 205, 205);
+    font-size: 16px;
+    font-weight: 300;
+  }
